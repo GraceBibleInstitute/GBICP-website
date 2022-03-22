@@ -1,0 +1,10 @@
+{{/* Link directly to documentation etc., if possible. */}}
+{{ $langPage := cond (gt (len .Translations) 0) . .Site.Home }}
+<div class="float-right d-print-none">
+<ul class="list-inline">	{{ range $langPage.Translations }}
+	<li class="list-inline-item"><a class="" href="{{ .RelPermalink }}">
+		<img class="flag" src="/lang/{{ partial "country-code.html" .Language }}.png">
+		{{ .Language.LanguageName }}</a></li>
+	{{ end }}
+</ul>
+</div>

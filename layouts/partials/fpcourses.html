@@ -1,0 +1,31 @@
+<section class="row td-box td-box--primary td-box--gradient td-box--height-auto">
+  <div class="row px-3">
+    {{ $courses := (.Site.GetPage "/courses").Pages }}
+    {{ range $courses.ByParam "code" }}
+    {{ $shouldShow := in $.Site.Params.course.front .Title }}
+    {{ if $shouldShow }}
+    <div class="col-xl-2 col-lg-3 col-md-4 py-2">
+      <div class="card mb-4 box-shadow h-100">
+        <div class="card-body">
+          <h3 class="panel-title pull-left"><a href="{{ .RelPermalink }}">{{ .Title | lower | title | truncate 20 }}</a>&nbsp;<small
+              class="text-muted font-weight-lighter">{{ .Params.code }}</small></h3>
+          <!-- <h6 class="card-text text-muted">{{ .Params.author }}</h6> -->
+          <!-- <span class="badge badge-info text-muted ">{{ .Params.instructor }} </span>&nbsp;|&nbsp; -->
+          <span class="badge badge-info text-muted ">{{ .Params.lessons }}&nbsp;{{ T "lessons" }}</span>
+        </br>
+          {{- with .Params.tags -}}
+          {{- range . }}
+            {{- $tag := urlize . }}
+            <span class="badge badge-info text-muted">
+            <a href='{{ absLangURL (printf "tags/%s" $tag) }}' class="text-muted">
+              {{- . }}
+            </a></span>
+          {{- end }}
+        {{- end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>

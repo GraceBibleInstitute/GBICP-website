@@ -1,0 +1,22 @@
+<article  class="td-content-fluid">
+	<h1>{{ .Title }}</h1>
+	{{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
+	<div class="td-byline mb-4">
+		<!-- {{ with .Params.author }}{{ T "post_byline_by" }}: <b>{{ . | markdownify }}</b>{{ end}} -->
+		<!-- {{ with .Params.instructor }}&nbsp;|&nbsp;&nbsp;{{ T "instructor" }}: <b>{{ . | markdownify }}</b>{{ end}} -->
+		<!-- {{ with .Params.translator }}&nbsp;|&nbsp;&nbsp;{{ T "translator" }}: <b>{{ . | markdownify }}</b> {{ end}} -->
+		{{ with .Params.attach }}{{ T "doc" }}:&nbsp; <a href="/course-file/{{ . }}"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+			<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+			<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+		  </svg></a> {{ end}}
+		{{ with .Params.attachppt }}&nbsp; <a href="/course-file/{{ . }}"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-ppt" viewBox="0 0 16 16">
+			<path d="M6.5 4.5a.5.5 0 0 0-1 0V12a.5.5 0 0 0 1 0V9.236a3 3 0 1 0 0-4.472V4.5zm0 2.5a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+			<path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+		  </svg></a> {{ end}}
+	</div>
+	{{ if (and (not .Params.hide_readingtime) (.Site.Params.ui.readingtime.enable)) }}
+	{{ partial "reading-time.html" . }}
+	{{ end }}
+	{{ .Content }}
+	{{ partial "pager.html" . }}
+</article >

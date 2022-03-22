@@ -1,0 +1,7 @@
+
+{{ range site.Home.AllTranslations }}
+<a class="dropdown-item nav-link languages-item" href="{{ .RelPermalink }}">
+    <img class="flag" src="/lang/{{ partial "helpers/country-code.html" .Language }}.png">
+    {{ .Language.LanguageName }}
+</a>
+{{ end }}

@@ -1,0 +1,15 @@
+{{ $verse := .Get 0 | default ""}}
+{{ $text := .Get 1 }}
+{{ $version := .Get 2 | default "cuv" }}
+<div class="bible">
+    <div class="h6">{{ $verse }}</div>
+    <p class="font-weight-bold">{{ $text }}</p>
+    <small class="text-muted float-right mt-n3">
+        {{ if eq $version "CUV" }}
+        《中文圣经和合本－神版》
+        {{ else if eq $version "NIV" }}
+        <i>The New International Version.</i> 2011.
+        {{ else }}
+        {{ $version }}
+        {{ end }}</small>
+</div>
