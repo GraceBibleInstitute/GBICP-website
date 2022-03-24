@@ -1,6 +1,6 @@
 ---
 weight: 0
-title: 基督徒生活
+title: THE CHRISTIAN LIFE
 author: Professor Mark Lenz
 instructor: Professor Mark Lenz
 code: 204
