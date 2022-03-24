@@ -9,12 +9,12 @@ tags:
 resources:
 - src: "1.jpg"
 --- 
-
 ## Forward前言
 
-This study is an adaptation of Dr. Kessel’s book The Life of Christ, published in 1997 by the Evangelical Lutheran Synod.
+This study is an adaptation of Dr. Kessel’s book The Life of Christ, published in 1997 by the Evangelical Lutheran Synod.  We thank Dr. Kessel and the Evangelical Lutheran Synod’s publications committee for allowing us to adapt that fine work. The changes were made by Dr. Glen Thompson with input from Dr. Kessel. © 2001 WELS Congregational Evangelist Program. The current revision for GBI was produced and assembled by Joel Luetke (2017).
 
-这本教材是凯赛尔博士（Dr. Kessel）所撰《基督生平》（路德福音会[Evangelical Lutheran Synod] 1997年出版）的改编版本。
+这本教材是凯赛尔博士（Dr. Kessel）所撰《基督生平》（路德福音会[Evangelical Lutheran Synod] 1997年出版）的改编版本。感谢凯赛尔博士和路德福音会的出版委员会允许我们改编如此精彩的作品。本教材中改写的部分是由唐建伦博士（Dr. Glen Thompson），在凯赛尔博士于2001年WELS教会传道项目的基础上完成的。这一版本是约尔 李可牧师2017年为恩典圣经学院课程教学所作的修订组装本。
+
 ## General Introduction概述
 
 The Gospels of Matthew, Mark, Luke and John describe the birth, life, suffering, death, and resurrection of Jesus Christ. These pages of the Bible outline the life of Christ.  As we study them, we should ask ourselves three questions. First, who is Jesus Christ?  Second, what has Jesus done for me personally? Finally, how should I respond to the love of Christ?  
