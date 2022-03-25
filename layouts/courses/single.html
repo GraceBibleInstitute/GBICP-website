@@ -1,9 +1,9 @@
 {{ define "main" }}
 <div class="row td-content-fluid">
-    <div class="col-12 col-md-9 col-xl-8">{{ partial "lang-selector.html" . }}
+    <div class="col-12 col-md-12 col-xl-10">{{ partial "lang-selector.html" . }}
         {{ .Render "content" }}
     </div>
-    <div class="td-content-fluid d-none d-xl-block col-xl-2 td-toc d-print-none">
+    <div class="td-content-fluid d-none d-xl-block col td-toc d-print-none">
         {{ partial "toc.html" . }}
     </div>
 </div>
