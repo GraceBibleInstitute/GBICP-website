@@ -3,7 +3,7 @@ weight: 1
 title: Chapter 1 The Birth and Childhood of John and Jesus Christ
 author: Pastor Robert Balza
 instructor: 
-code: 104
+code: 103
 lessons: 15
 tags: 
 resources:
