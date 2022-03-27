@@ -82,7 +82,7 @@ weight = 2
 
 [params]
 copyright = "Grace Bible Institute"
-privacy_policy = "https://gbicp.org"
+# privacy_policy = "https://gbicp.org"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
