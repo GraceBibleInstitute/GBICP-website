@@ -61,8 +61,6 @@ lastmod: '2022-01-25T14:40:44.238Z'
 - [上帝爱世人 14-信心](/course-file/203/GSLTW-ch14.pdf)
 - [上帝爱世人 15-回转归正](/course-file/203/GSLTW-ch15.pdf)
 - [上帝爱世人 16-称义](/course-file/203/GSLTW-ch16.pdf)
-- [上帝爱世人 17-成圣](/course-file/203/GSLTW-ch17.pdf)
-- [上帝爱世人 18-善行](/course-file/203/GSLTW-ch18.pdf)
 - [上帝爱世人 19-拣选](/course-file/203/GSLTW-ch19.pdf)
 - [上帝爱世人 20-施恩具](/course-file/203/GSLTW-ch20.pdf)
 - [上帝爱世人 21-圣礼-引言](/course-file/203/GSLTW-ch21.pdf)
