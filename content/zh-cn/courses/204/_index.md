@@ -88,3 +88,18 @@ The objectives of this course are to help students
 Course Author: 课程作者
 
 Professor Mark Lenz 马可·伦茨教授
+
+## 课程教材
+
+教材下载：
+
+- [上帝爱世人 17-成圣](/course-file/203/GSLTW-ch17.pdf)
+- [上帝爱世人 18-善行](/course-file/203/GSLTW-ch18.pdf)
+- [上帝爱世人 24-教会](/course-file/203/GSLTW-ch24.pdf)
+- [上帝爱世人 25-教会相交](/course-file/203/GSLTW-ch25.pdf)
+- [上帝爱世人 26-教会圣工](/course-file/203/GSLTW-ch26.pdf)
+- [上帝爱世人 27-敌基督](/course-file/203/GSLTW-ch27.pdf)
+- [上帝爱世人 28-终末论](/course-file/203/GSLTW-ch28.pdf)
+- [上帝爱世人 29-教会与国家：两个国度的教义](/course-file/203/GSLTW-ch29.pdf)
+- [上帝爱世人 30-婚姻与家庭](/course-file/203/GSLTW-ch30.pdf)
+- [上帝爱世人 31-附录](/course-file/203/GSLTW-endnotes.pdf)
